@@ -17,7 +17,7 @@ namespace WebApplication1
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
-                .Build();
+                .Build();   
 
             host.Run();
         }
